@@ -1,15 +1,15 @@
-## Password Manager : A C++ based simple password manager using OOP, Database & CRUD operation, Hashing
+# Password Manager : A C++ based simple password manager using OOP, Database & CRUD operation, Hashing
 
-# Features  
+## Features  
 - Authentication(Login, Register, Logout)
 - Security (Hashing)
 - Store Password in Database and CRUD operation
 
-# Technologies 
+## Technologies 
 Langugae : C++
 Database : PostgreSQL
 
-# Project File Structure
+## Project File Structure
 ```text
 ├── include
 │   ├── Database.h
