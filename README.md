@@ -1,17 +1,17 @@
 # Password Manager: A Simple C++ Password Manager Using OOP, Database, CRUD Operations, and Hashing
 
 ## Features  
-- Authentication
-      - Login
-      - Register
-      - Logout
-- Security
-      - Hashing
-- Database Operation
-      - Create & Store Password
-      - Update Password
-      - Show List of Password
-      - Delete Password
+- Authentication  
+      - Login  
+      - Register  
+      - Logout  
+- Security  
+      - Hashing  
+- Database Operation  
+      - Create & Store Password  
+      - Update Password  
+      - Show List of Password  
+      - Delete Password  
 
 ## Technologies 
 - Langugae : C++
