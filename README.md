@@ -50,6 +50,7 @@
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ```
+and 
 ```sql
     CREATE TABLE IF NOT EXISTS passwords (
     id SERIAL PRIMARY KEY,
