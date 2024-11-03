@@ -61,7 +61,9 @@
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
  ```
 5. Go to `main.cpp` and edit the connection strings according to your database settings.
-   `Database db("dbname=mydb user=user_name password=user_password hostaddr=127.0.0.1 port=5432");`
+   ```bash
+   Database db("dbname=mydb user=user_name password=user_password hostaddr=127.0.0.1 port=5432");
+   ```
    
 7. Run the following commands
 ```bash
