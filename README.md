@@ -49,8 +49,7 @@
     username VARCHAR(50) UNIQUE NOT NULL,
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-```
-and create passwords table using following command :  
+   
 ```sql
     CREATE TABLE IF NOT EXISTS passwords (
     id SERIAL PRIMARY KEY,
