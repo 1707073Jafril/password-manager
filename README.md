@@ -61,8 +61,9 @@
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
  ```
 5. Go to `main.cpp` and edit the connection strings according to your database settings.
+   `Database db("dbname=mydb user=user_name password=user_password hostaddr=127.0.0.1 port=5432");`
    
-6. Run the following commands
+7. Run the following commands
 ```bash
 $ g++ src/main.cpp src/Database.cpp src/User.cpp src/PasswordManager.cpp src/Utils.cpp -o PasswordManager -Iinclude -lpqxx -lpq -lssl -lcrypto
 ```
