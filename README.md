@@ -40,7 +40,7 @@
    ```text
    https://github.com/1707073Jafril/password-manager
    ```
-2. Unzip the project and go to the directory of the project  
+2. Unzip the project and go to the directory of the project.  
 3. Set the database, create database user.
 4. Create tables using following commands.
  ```sql
@@ -60,6 +60,7 @@
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
  ```
+5. Go to `main.cpp` and edit the connection strings according to your database settings.
    
 6. Run the following commands
 ```bash
@@ -67,4 +68,11 @@ $ g++ src/main.cpp src/Database.cpp src/User.cpp src/PasswordManager.cpp src/Uti
 ```
 ```bash
 $ ./PasswordManager
+```
+
+```text
+Make sure :
+      - to use database name, user, password, host, and port correctly.
+      - to run command within the project folder
+      - to install required libraries and packages if unavailable in our device
 ```
