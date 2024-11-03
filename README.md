@@ -43,7 +43,7 @@
 2. Unzip the project and go to the directory of the project  
 3. Set the database, create database user.
 4. Create tables using following commands.
-   ```sql
+ ```sql
     CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
     username VARCHAR(50) UNIQUE NOT NULL,
@@ -63,6 +63,7 @@
 6. Run the following commands
 ```bash
 $ g++ src/main.cpp src/Database.cpp src/User.cpp src/PasswordManager.cpp src/Utils.cpp -o PasswordManager -Iinclude -lpqxx -lpq -lssl -lcrypto
+```
 ```bash
 $ ./PasswordManager
 ```
