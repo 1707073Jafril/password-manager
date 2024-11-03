@@ -50,15 +50,6 @@
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ```
-```sql
-    CREATE TABLE IF NOT EXISTS passwords (
-    id SERIAL PRIMARY KEY,
-    user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
-    service VARCHAR(100) NOT NULL,
-    username VARCHAR(50) NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-```
    ```sql
     CREATE TABLE IF NOT EXISTS passwords (
     id SERIAL PRIMARY KEY,
