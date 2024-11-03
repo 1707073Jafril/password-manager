@@ -61,3 +61,8 @@
  ```
    
 6. Run the following commands
+   ```bash
+   $ g++ src/main.cpp src/Database.cpp src/User.cpp src/PasswordManager.cpp src/Utils.cpp -o PasswordManager -Iinclude -lpqxx -lpq -lssl -lcrypto
+```bash
+$ ./PasswordManager
+```
