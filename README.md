@@ -1,4 +1,4 @@
-# Password Manager: A Simple C++ Password Manager Using OOP, Database, CRUD Operations, and Hashing
+# Pass-Vault: A Simple C++ Password Manager Using OOP, Database, CRUD Operations, and Hashing
 
 ## Features  
 - Authentication  
