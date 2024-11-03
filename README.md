@@ -51,7 +51,7 @@
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ```
 
-   ```sql
+```sql
     CREATE TABLE IF NOT EXISTS passwords (
     id SERIAL PRIMARY KEY,
     user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
