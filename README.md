@@ -38,7 +38,7 @@
 ## Run the Password Manager in Local Machine  
 1. Download or clone source code from the repo.
    ```text
-         https://github.com/1707073Jafril/password-manager
+   https://github.com/1707073Jafril/password-manager
    ```
 2. Unzip the project and go to the directory of the project  
 3. Set the database, create database user.
@@ -50,7 +50,7 @@
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
    
-```sql
+ ```sql
     CREATE TABLE IF NOT EXISTS passwords (
     id SERIAL PRIMARY KEY,
     user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
@@ -58,6 +58,6 @@
     username VARCHAR(50) NOT NULL,
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-```
+ ```
    
 6. Run the following commands
